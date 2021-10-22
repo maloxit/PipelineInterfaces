@@ -1,10 +1,11 @@
-package com.java_polytech.piepline_interfaces;
+package com.java_polytech.pipeline_interfaces;
 
 public class RC {
     //When finished correctly - returns null as RC
 
     public enum RCType {
         INPUT_DATA_ERROR,
+        OUTPUT_DATA_ERROR,
         NULL_REFERENCE_ERROR,
         //TODO: Add more types
     }
