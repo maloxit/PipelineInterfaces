@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PipelineInterfaces:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PipelineInterfaces_jar</output-path>
+    <root id="archive" name="PipelineInterfaces.jar">
+      <element id="module-output" name="PipelineInterfaces" />
+    </root>
+  </artifact>
+</component>
