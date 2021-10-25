@@ -39,7 +39,7 @@ public class RC {
         {
             who = owner;
         }
-        public String Get()
+        public String get()
         {
             return who;
         }
