@@ -33,9 +33,9 @@ public class RC {
         EXECUTOR("EXECUTOR"),
         WRITER("WRITER"),
         MANAGER("MANAGER");
-        private String who;
+        final private String who;
 
-        private RCWho(String owner)
+        RCWho(String owner)
         {
             who = owner;
         }
